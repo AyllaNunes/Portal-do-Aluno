@@ -1,35 +1,35 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eef2f5;
+body{
+     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 4, 82);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-login {
-    width:100%;
+.container-login{
+    width: 100%;
     max-width: 400px;
     padding: 20px;
 }
 
-.card-login {
+.card-login{
     width: 100%;
-    background-color: #ffffff;
+    background-color: antiquewhite;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 2px 4px 20px rgba(0, 0, 0, 1);
 }
 
-.cabecalho-card {
+.cabecalho-card{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 23px;
 }
 
 .logo-icone{
@@ -38,96 +38,94 @@ body {
 }
 
 .cabecalho-card h2{
-    color:  #3c3a3a;
+    color: blueviolet;
     font-size: 22px;
     margin-bottom: 6px;
 }
 .cabecalho-card p {
-    color: #666666;
-    font-size: 13px;
+    color:rgb(81, 49, 110);
+    font-size:13px;
 }
-.grupo-campo {
+.grupo-campo{
     margin-bottom: 18px;
 }
-.grupo-campo label {
+.grupo-campo label{
     display: block;
     margin-bottom: 6px;
     font-size: 14px;
-    color: #444444;
+    color:rgb(28, 11, 44);
     font-weight: bold;
 }
-.grupo-campo input {
+.grupo-campo input{
     width: 100%;
-    padding: 12px;
-    border: 2px solid #cccccc;
+    padding:12px;
+    border:2px solid rgb(129, 4, 113);
     border-radius: 6px;
     font-size: 14px;
-    transition: border-color 0.3s, 
-    background-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
 }
 .grupo-campo input:focus{
-    outline:none;
-    border-color: #0056b3;
+    outline: none;
+    border-color: rgb(28, 2, 53);
 }
 .grupo-campo input.campo-valido{
-    border-color: #1e8f39;
-    background-color:  #f4fff6;
+    border-color: rgb(0, 255, 106);
+    background-color: rgb(132, 4, 236);
 }
-.opcoes-login {
+.opcoes-login{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     font-size: 13px;
 }
-.lembrar-senha {
-    display:flex;
+.lembrar-senha{
+    display: flex;
     align-items: center;
-    gap: 6px;
-    color: #555555;
+    gap:6px;
+    color: black;
     cursor:pointer;
 }
-.esqueceu-senha {
-    color: #0056b3;
+
+.esqueceu-senha{
+    color: rgb(5, 16, 170);
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: color 0.3;
 }
-.esqueceu-senha:hover{
-    color: #003d80;
+.esqueceu-senha:hover {
+    color:rgb(22, 0, 43);
     text-decoration: underline;
 }
-.btn-login {
+.btn-login{
     width: 100%;
     padding: 12px;
-    background-color: #0056b3;
-    color: #ffffff;
-    border: none;
-    border-radius: 6px;
+    background-color: rgb(188, 87, 235);
+    color:aliceblue;
+    border-radius:6px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s, 
-    transform 0.2s, box-shadow 0.2s;
+    transition: background-color 0.3s, transform  0.2s, box-shadow 0.2s;
 }
-.btn-login:hover {
-    background-color: #003d80;
+.btn-login:hover{
+    background-color: rgb(101, 37, 131);
     transform: translateY(-2px);
     box-shadow: 2px 4px 12px;
 }
-.btn-login:active {
+.btn-login:active{
     transform: translateY(0);
 }
 .rodape-card{
     text-align: center;
     margin-top: 20px;
     padding-top: 15px;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid cornsilk;
     font-size: 13px;
-    color: #666666;
+    color: rgb(92, 2, 175);
 }
 .rodape-card a{
-    color: #0056b3;
+    color:black;
     text-decoration: none;
     font-weight: bold;
 }
