@@ -5,6 +5,7 @@
 }
 
 body{
+    padding:20px;
     font-family: Arial, sans-serif;
     background-color: rgb(83, 53, 109);
     display:flex;
@@ -18,7 +19,8 @@ body{
     background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 20px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     box-shadow: 0 4px 15px color rgba(28, 0, 53);
 }
 
